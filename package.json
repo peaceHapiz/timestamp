@@ -4,12 +4,14 @@
   "description": "An FCC Backend Challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.0",
     "express": "^4.21.2",
-    "moment-timezone": "^0.5.46"
+    "moment-timezone": "^0.5.46",
+    "nodemon": "^3.1.7"
   },
   "repository": {
     "type": "git",
